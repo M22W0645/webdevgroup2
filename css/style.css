@@ -1,0 +1,48 @@
+
+body {
+  width: 625px;
+  height: 400px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: auto;
+  gap: 20px;
+  padding: 10px;  
+  background-color: lightcoral;
+}
+
+header, footer {
+  font-size: 12px;
+  background-color: turquoise;
+  color: white;
+  text-align: center;  
+  grid-column: 1 / 4;
+}
+
+aside {
+  grid-column: 1;
+  background-color: lightseagreen;    
+  text-align: center;  
+  padding: 10px;
+}
+
+article {
+  grid-column: 2 / 4;
+  background-color: rgb(228, 70, 70);    
+  text-align: center;  
+  padding: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+img {
+  padding: 40px;
+  background-color: lightgray;    
+}
